@@ -1,0 +1,98 @@
+.karan-website-main {
+
+    .navbar-parent {
+        .ui .item {
+            cursor: pointer;
+        }
+    }
+    
+    .banner-parent {
+        background: black;
+        overflow: hidden;
+        background-image: url("./images/2.jpg");
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        transition: all .4s ease;
+        color: white;
+
+        .banner-image {
+            padding-top: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            img {
+                height: 200px;
+                width: 200px;
+                border-radius: 50%;
+            }
+        }
+
+        .banner-text {
+            padding-top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+     
+            .banner-title {
+               
+            }
+    
+            .banner-subtitle {
+                padding-top: 15px;
+            }
+    
+            .banner-icons {
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+            }
+
+            .banner-icons img {
+                margin: 15px;
+            }
+
+            .banner-resume-button {
+                padding-top: 30px;
+                padding-bottom: 30px;                
+            }
+        }
+
+        .banner-intern-experience {
+            padding-top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 100px;
+
+            .intern-box {
+                display: flex;
+                flex-direction: row;
+                background-color: #C6C6C6;
+                border-radius: 5px;
+                color: black;
+                width: 600px;
+                height: 70px;
+                align-items: center;
+                margin: 10px;
+                cursor: pointer;
+
+                .intern-logo {
+                    padding-left: 30px;
+                    padding-right: 30px;  
+                }
+
+                .intern-header {
+
+                }
+
+            }
+
+            .intern-box:hover {
+                background-color: white;
+            }
+
+        }
+    }
+}
